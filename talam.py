@@ -24,7 +24,7 @@ except ModuleNotFoundError:
 time.sleep(0.5)
 user = raw_input('[⚡] Target Username/ID/Email >>?? ')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[⚡] Wordlist Type pk.txt,asim.txt >> ')
+wrdlstFileName = raw_input('\n[⚡] Wordlist Type us.txt,asim.txt >> ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
